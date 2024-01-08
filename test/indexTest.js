@@ -16,10 +16,10 @@ describe('index.js', function () {
 
   describe('mostProfitableNeighborhood', function () {
     it('is declared as equal to Chelsea', function () {
-      expect(mostProfitableNeighborhood).to.equal('Chelsea');
+      expect(mostProfitableNeighborhood).to.equal('Scuber');
     });
 
-    it('is defined using let', function () {
+    it('is defined using const', function () {
       expect(js).to.match(/let mostProfitableNeighborhood/, "Expected mostProfitableNeighborhood to be defined using let");
     });
   });
